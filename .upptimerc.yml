@@ -1,31 +1,41 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Verify these first
+owner: fullprofile # Your GitHub organization or username, where this repository lives
+repo: agridigital-status-monitor # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: AgriDigital App
+    url: https://app.agridigital.io
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #cname: demo.upptime.js.org
+  #cname: status.agridigital.io  # Custom CNAME
+  baseUrl: /agridigital-status-monitor
+  logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
+  name: AgriDigital Status Monitor
+  introTitle: "AgriDigital Status Monitor provides a quick look at our services and the uptime"
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: AgriDigital App
+      href: https://app.agridigital.io'
+    - title: Knowledge Base
+      href: https://knowledgebase.agridigital.io/
+
+  notifications:
+  - type: slack
+    channel: C01E1AA7KAT 
+
+  i18n:
+  footer: Grown by AgriDigital
+  activeIncidents: Active Notices
+  pastIncidents: Previous Notices
+  incidentReport: "Notice #$NUMBER report →"
+  incidentTitle: Notice $NUMBER Details
+  incidentDetails: Notice Details
+  incidentBack: ← Back to all notices
+     
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
