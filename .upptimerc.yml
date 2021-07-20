@@ -24,7 +24,7 @@ status-website:
 
   notifications:
   - type: slack
-    channel: B028GNFDEER 
+    channel: C028KUQ3CBD 
 
   i18n:
   footer: Grown by AgriDigital 
