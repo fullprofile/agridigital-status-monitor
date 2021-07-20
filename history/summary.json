@@ -1,7 +1,7 @@
 [
   {
     "name": "AgriDigital App",
-    "url": "https://app.agridigital.io",
+    "url": "https://app.agridigital.io/",
     "icon": "https://favicons.githubusercontent.com/app.agridigital.io",
     "slug": "agri-digital-app",
     "status": "up",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 385,
-    "timeDay": 385,
-    "timeWeek": 385,
-    "timeMonth": 385,
-    "timeYear": 385,
+    "time": 412,
+    "timeDay": 412,
+    "timeWeek": 412,
+    "timeMonth": 412,
+    "timeYear": 412,
     "dailyMinutesDown": {}
   }
 ]
