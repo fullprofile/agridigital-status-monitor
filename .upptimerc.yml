@@ -27,14 +27,7 @@ status-website:
     channel: B028GNFDEER 
 
   i18n:
-  footer: Grown by AgriDigital
-  activeIncidents: Active Notices
-  pastIncidents: Previous Notices
-  incidentReport: "Notice #$NUMBER report →"
-  incidentTitle: Notice $NUMBER Details
-  incidentDetails: Notice Details
-  incidentBack: ← Back to all notices
-     
+  footer: Grown by AgriDigital 
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
