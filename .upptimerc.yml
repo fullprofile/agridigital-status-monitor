@@ -9,7 +9,6 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
   cname: status.agridigital.io  # Custom CNAME
   #baseUrl: /agridigital-status-monitor
   logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
@@ -25,7 +24,7 @@ status-website:
 
   notifications:
   - type: slack
-    channel: C01E1AA7KAT 
+    channel: B028GNFDEER 
 
   i18n:
   footer: Grown by AgriDigital
