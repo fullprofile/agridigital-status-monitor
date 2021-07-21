@@ -27,7 +27,7 @@ notifications:
   - type: slack
     channel: C028KUQ3CBD
 
-  i18n:
+i18n:
   footer: Grown by AgriDigital
 
 # Upptime also supports notifications, assigning issues, and more
