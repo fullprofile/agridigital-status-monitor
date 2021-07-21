@@ -11,8 +11,6 @@ sites:
     url: https://api.agridigital.io/api/v1/values/TestDbQuery
   - name: Xero Integration
     url: https://xero.agridigital.io/health
-  - name: API Service
-    url: https://api.agridigital.io/api/v1/values/TestDbQuery  
 
 
 status-website:
