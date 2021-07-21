@@ -28,7 +28,7 @@ status-website:
       href: https://app.agridigital.io/
     - title: Knowledge Base
       href: https://knowledgebase.agridigital.io/
-     
+    # Periscope and Elastic endpoints to be added
 notifications:
   - type: slack
     channel: C028KUQ3CBD
