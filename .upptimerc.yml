@@ -5,6 +5,14 @@ repo: agridigital-status-monitor # The name of this repository
 sites:
   - name: AgriDigital App
     url: https://app.agridigital.io/
+  - name: OUS Service
+    url: https://ous.agridigital.io/api/_organisations/heartbeat
+  - name: API Service
+    url: https://api.agridigital.io/api/v1/values/TestDbQuery
+  - name: Xero Integration
+    url: https://xero.agridigital.io/health
+  - name: API Service
+    url: https://api.agridigital.io/api/v1/values/TestDbQuery     
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -21,8 +29,8 @@ status-website:
       href: https://app.agridigital.io/
     - title: Knowledge Base
       href: https://knowledgebase.agridigital.io/
-
-  notifications:
+     
+notifications:
   - type: slack
     channel: C028KUQ3CBD
 
