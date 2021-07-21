@@ -9,10 +9,10 @@ sites:
     url: https://ous.agridigital.io/api/_organisations/heartbeat
   - name: API Service
     url: https://api.agridigital.io/api/v1/values/TestDbQuery
-  - name: Xero Integration
-    url: https://xero.agridigital.io/health
+ # - name: Xero Integration
+  #  url: https://xero.agridigital.io/health
   - name: API Service
-    url: https://api.agridigital.io/api/v1/values/TestDbQuery     
+    url: https://api.agridigital.io/api/v1/values/TestDbQuery
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
