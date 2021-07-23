@@ -10,10 +10,17 @@ sites:
   - name: API Service
     url: https://api.agridigital.io/api/v1/values/TestDbQuery
   - name: Xero Integration
-    url: https://xero.agridigital.io/health
+    url: https://xero.agridigital.io/health 
   - name: Cache Service
-    url: $CACHE_URL  
+    url: $CACHE_URL
+    headers:
+      - "Authorization: Basic $ELASTIC_SECRET"
+      - "Content-Type: application/json"
+   
 
+
+ELASTIC_USERNAME
+ELASTIC_PASSWORD
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
