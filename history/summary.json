@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 557,
-    "timeDay": 432,
-    "timeWeek": 557,
-    "timeMonth": 557,
-    "timeYear": 557,
+    "time": 549,
+    "timeDay": 429,
+    "timeWeek": 549,
+    "timeMonth": 549,
+    "timeYear": 549,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 860,
-    "timeDay": 892,
-    "timeWeek": 860,
-    "timeMonth": 860,
-    "timeYear": 860,
+    "time": 849,
+    "timeDay": 836,
+    "timeWeek": 849,
+    "timeMonth": 849,
+    "timeYear": 849,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 804,
-    "timeDay": 938,
-    "timeWeek": 804,
-    "timeMonth": 804,
-    "timeYear": 804,
+    "time": 799,
+    "timeDay": 848,
+    "timeWeek": 799,
+    "timeMonth": 799,
+    "timeYear": 799,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,31 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1391,
-    "timeDay": 1779,
-    "timeWeek": 1391,
-    "timeMonth": 1391,
-    "timeYear": 1391,
+    "time": 1412,
+    "timeDay": 1660,
+    "timeWeek": 1412,
+    "timeMonth": 1412,
+    "timeYear": 1412,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Cache Service",
+    "url": "https://0b9f7e462521a37d956c1da1c9f305bc.ap-southeast-2.aws.found.io:9243",
+    "icon": "https://favicons.githubusercontent.com/0b9f7e462521a37d956c1da1c9f305bc.ap-southeast-2.aws.found.io",
+    "slug": "cache-service",
+    "status": "down",
+    "uptime": "5.41%",
+    "uptimeDay": "5.41%",
+    "uptimeWeek": "5.41%",
+    "uptimeMonth": "5.41%",
+    "uptimeYear": "5.41%",
+    "time": 680,
+    "timeDay": 680,
+    "timeWeek": 680,
+    "timeMonth": 680,
+    "timeYear": 680,
+    "dailyMinutesDown": {
+      "2021-07-23": 0
+    }
   }
 ]
