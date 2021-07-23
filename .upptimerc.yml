@@ -12,7 +12,7 @@ sites:
   - name: Xero Integration
     url: https://xero.agridigital.io/health
   - name: Cache Service
-    url: https://0b9f7e462521a37d956c1da1c9f305bc.ap-southeast-2.aws.found.io:9243   
+    url: $CACHE_URL  
 
 
 status-website:
