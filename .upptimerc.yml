@@ -13,7 +13,9 @@ sites:
     url: https://xero.agridigital.io/health 
   - name: Cache Service
     url: $CACHE_URL
-
+    headers:
+      - "Authorization: Basic $ELASTIC_SECRET"
+      - "Content-Type: application/json"
 
 assignees:
   - ShilpaGupta
