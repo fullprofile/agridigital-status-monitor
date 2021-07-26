@@ -16,7 +16,11 @@ sites:
     headers:
       - "Authorization: Basic $ELASTIC_SECRET"
       - "Content-Type: application/json"
-   
+
+assignees:
+  - ShilpaGupta
+  - Mark
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
