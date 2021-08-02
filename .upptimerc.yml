@@ -11,6 +11,8 @@ sites:
     url: https://api.agridigital.io/api/v1/values/TestDbQuery
   - name: Xero Integration
     url: https://xero.agridigital.io/health 
+  - name: AgriDigital Service
+    url: agri.digital 
   - name: Cache Service
     url: $CACHE_URL
     headers:
