@@ -4,10 +4,10 @@
     "url": "https://app.agridigital.io/",
     "icon": "https://favicons.githubusercontent.com/app.agridigital.io",
     "slug": "agri-digital-app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 569,
@@ -15,7 +15,9 @@
     "timeWeek": 561,
     "timeMonth": 569,
     "timeYear": 569,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-19": 1
+    }
   },
   {
     "name": "OUS Service",
@@ -76,9 +78,9 @@
     "url": "agri.digital",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "agri-digital-short-url-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -87,7 +89,9 @@
     "timeWeek": 516,
     "timeMonth": 627,
     "timeYear": 627,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-19": 0
+    }
   },
   {
     "name": "Cache Service",
