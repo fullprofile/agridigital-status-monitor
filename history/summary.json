@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 565,
-    "timeDay": 333,
-    "timeWeek": 669,
-    "timeMonth": 572,
-    "timeYear": 565,
+    "time": 568,
+    "timeDay": 838,
+    "timeWeek": 685,
+    "timeMonth": 588,
+    "timeYear": 568,
     "dailyMinutesDown": {}
   },
   {
@@ -29,8 +29,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 882,
-    "timeDay": 757,
-    "timeWeek": 863,
+    "timeDay": 852,
+    "timeWeek": 857,
     "timeMonth": 886,
     "timeYear": 882,
     "dailyMinutesDown": {}
@@ -47,9 +47,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 858,
-    "timeDay": 723,
-    "timeWeek": 813,
-    "timeMonth": 875,
+    "timeDay": 862,
+    "timeWeek": 814,
+    "timeMonth": 873,
     "timeYear": 858,
     "dailyMinutesDown": {}
   },
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1340,
-    "timeDay": 1091,
-    "timeWeek": 1317,
-    "timeMonth": 1351,
-    "timeYear": 1340,
+    "time": 1335,
+    "timeDay": 946,
+    "timeWeek": 1226,
+    "timeMonth": 1342,
+    "timeYear": 1335,
     "dailyMinutesDown": {}
   },
   {
@@ -76,18 +76,20 @@
     "url": "agri.digital",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "agri-digital-short-url-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 569,
-    "timeDay": 281,
-    "timeWeek": 483,
-    "timeMonth": 554,
-    "timeYear": 569,
-    "dailyMinutesDown": {}
+    "time": 566,
+    "timeDay": 400,
+    "timeWeek": 471,
+    "timeMonth": 551,
+    "timeYear": 566,
+    "dailyMinutesDown": {
+      "2021-09-27": 0
+    }
   },
   {
     "name": "Cache Service",
@@ -100,11 +102,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 841,
-    "timeDay": 710,
-    "timeWeek": 794,
-    "timeMonth": 857,
-    "timeYear": 841,
+    "time": 842,
+    "timeDay": 883,
+    "timeWeek": 795,
+    "timeMonth": 864,
+    "timeYear": 842,
     "dailyMinutesDown": {
       "2021-07-23": 17
     }
