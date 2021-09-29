@@ -76,19 +76,19 @@
     "url": "agri.digital",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "agri-digital-short-url-service",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 551,
-    "timeDay": 169,
-    "timeWeek": 400,
-    "timeMonth": 505,
-    "timeYear": 551,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.15%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
+    "time": 556,
+    "timeDay": 393,
+    "timeWeek": 444,
+    "timeMonth": 515,
+    "timeYear": 556,
     "dailyMinutesDown": {
-      "2021-09-29": 0
+      "2021-09-29": 12
     }
   },
   {
