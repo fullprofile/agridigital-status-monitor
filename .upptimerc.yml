@@ -1,4 +1,4 @@
-# Verify these first
+# Verify owner and repo first
 owner: fullprofile # Your GitHub organization or username, where this repository lives
 repo: agridigital-status-monitor # The name of this repository
 
