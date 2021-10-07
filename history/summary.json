@@ -58,19 +58,19 @@
     "url": "https://xero.agridigital.io/health",
     "icon": "https://favicons.githubusercontent.com/xero.agridigital.io",
     "slug": "xero-integration",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.48%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 1530,
-    "timeDay": 11068,
-    "timeWeek": 3439,
-    "timeMonth": 1935,
+    "timeDay": 7881,
+    "timeWeek": 3246,
+    "timeMonth": 1922,
     "timeYear": 1530,
     "dailyMinutesDown": {
-      "2021-10-07": 0
+      "2021-10-07": 8
     }
   },
   {
