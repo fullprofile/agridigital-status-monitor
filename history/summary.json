@@ -58,18 +58,20 @@
     "url": "https://xero.agridigital.io/health",
     "icon": "https://favicons.githubusercontent.com/xero.agridigital.io",
     "slug": "xero-integration",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1491,
-    "timeDay": 1154,
-    "timeWeek": 1275,
-    "timeMonth": 1906,
-    "timeYear": 1491,
-    "dailyMinutesDown": {}
+    "time": 1487,
+    "timeDay": 1105,
+    "timeWeek": 1248,
+    "timeMonth": 1881,
+    "timeYear": 1487,
+    "dailyMinutesDown": {
+      "2021-10-30": 0
+    }
   },
   {
     "name": "AgriDigital Short URL Service",
