@@ -18,6 +18,8 @@ sites:
     headers:
       - "Authorization: Basic $ELASTIC_SECRET"
       - "Content-Type: application/json"
+  - name: SMS Broadcast Service
+    url: https://api.smsbroadcast.com.au/api-adv.php
 
 assignees:
   - mccpanelo-ad
