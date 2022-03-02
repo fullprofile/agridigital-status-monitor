@@ -78,9 +78,9 @@
     "url": "https://www.ngr.com.au/myngr-system-status/",
     "icon": "https://favicons.githubusercontent.com/www.ngr.com.au",
     "slug": "ngr-system-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -89,7 +89,9 @@
     "timeWeek": 1545,
     "timeMonth": 1691,
     "timeYear": 1691,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-03-02": 0
+    }
   },
   {
     "name": "AgriDigital Short URL Service",
