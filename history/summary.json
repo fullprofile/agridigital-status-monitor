@@ -24,9 +24,9 @@
     "slug": "ous-service",
     "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "94.88%",
-    "uptimeWeek": "99.27%",
-    "uptimeMonth": "99.83%",
+    "uptimeDay": "94.00%",
+    "uptimeWeek": "99.14%",
+    "uptimeMonth": "99.80%",
     "uptimeYear": "99.97%",
     "time": 872,
     "timeDay": 880,
@@ -34,7 +34,7 @@
     "timeMonth": 880,
     "timeYear": 872,
     "dailyMinutesDown": {
-      "2022-03-04": 74,
+      "2022-03-04": 86,
       "2021-12-08": 15
     }
   },
@@ -44,18 +44,18 @@
     "icon": "https://favicons.githubusercontent.com/api.agridigital.io",
     "slug": "api-service",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "94.88%",
-    "uptimeWeek": "99.27%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.97%",
+    "uptimeDay": "94.00%",
+    "uptimeWeek": "99.14%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.97%",
     "time": 858,
     "timeDay": 908,
     "timeWeek": 894,
     "timeMonth": 890,
     "timeYear": 858,
     "dailyMinutesDown": {
-      "2022-03-04": 74
+      "2022-03-04": 86
     }
   },
   {
@@ -64,18 +64,18 @@
     "icon": "https://favicons.githubusercontent.com/xero.agridigital.io",
     "slug": "xero-integration",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "94.89%",
-    "uptimeWeek": "99.27%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.97%",
+    "uptimeDay": "94.00%",
+    "uptimeWeek": "99.14%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.97%",
     "time": 1365,
     "timeDay": 1284,
     "timeWeek": 1261,
     "timeMonth": 1306,
     "timeYear": 1365,
     "dailyMinutesDown": {
-      "2022-03-04": 74
+      "2022-03-04": 86
     }
   },
   {
@@ -83,19 +83,19 @@
     "url": "https://www.ngr.com.au/myngr-system-status/",
     "icon": "https://favicons.githubusercontent.com/www.ngr.com.au",
     "slug": "ngr-system-status",
-    "status": "down",
-    "uptime": "99.15%",
-    "uptimeDay": "90.28%",
-    "uptimeWeek": "98.14%",
-    "uptimeMonth": "99.15%",
-    "uptimeYear": "99.15%",
-    "time": 3109,
-    "timeDay": 4249,
-    "timeWeek": 4080,
-    "timeMonth": 3109,
-    "timeYear": 3109,
+    "status": "up",
+    "uptime": "99.09%",
+    "uptimeDay": "89.41%",
+    "uptimeWeek": "98.01%",
+    "uptimeMonth": "99.09%",
+    "uptimeYear": "99.09%",
+    "time": 3029,
+    "timeDay": 3669,
+    "timeWeek": 3869,
+    "timeMonth": 3029,
+    "timeYear": 3029,
     "dailyMinutesDown": {
-      "2022-03-04": 141,
+      "2022-03-04": 154,
       "2022-03-02": 48
     }
   },
