@@ -23,18 +23,18 @@
     "icon": "https://favicons.githubusercontent.com/ous.agridigital.io",
     "slug": "ous-service",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "97.87%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.99%",
+    "uptime": "99.98%",
+    "uptimeDay": "97.29%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.98%",
     "time": 872,
     "timeDay": 880,
     "timeWeek": 872,
     "timeMonth": 880,
     "timeYear": 872,
     "dailyMinutesDown": {
-      "2022-03-04": 31,
+      "2022-03-04": 39,
       "2021-12-08": 15
     }
   },
@@ -45,9 +45,9 @@
     "slug": "api-service",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "97.87%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.93%",
+    "uptimeDay": "97.29%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.99%",
     "time": 858,
     "timeDay": 908,
@@ -55,7 +55,7 @@
     "timeMonth": 890,
     "timeYear": 858,
     "dailyMinutesDown": {
-      "2022-03-04": 31
+      "2022-03-04": 39
     }
   },
   {
@@ -65,9 +65,9 @@
     "slug": "xero-integration",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "97.88%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.93%",
+    "uptimeDay": "97.30%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.99%",
     "time": 1365,
     "timeDay": 1284,
@@ -75,7 +75,7 @@
     "timeMonth": 1306,
     "timeYear": 1365,
     "dailyMinutesDown": {
-      "2022-03-04": 31
+      "2022-03-04": 39
     }
   },
   {
@@ -83,9 +83,9 @@
     "url": "https://www.ngr.com.au/myngr-system-status/",
     "icon": "https://favicons.githubusercontent.com/www.ngr.com.au",
     "slug": "ngr-system-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.25%",
-    "uptimeDay": "91.92%",
+    "uptimeDay": "91.91%",
     "uptimeWeek": "98.37%",
     "uptimeMonth": "99.25%",
     "uptimeYear": "99.25%",
