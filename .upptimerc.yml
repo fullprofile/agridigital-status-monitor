@@ -12,7 +12,7 @@ sites:
   - name: Xero Integration
     url: https://xero.agridigital.io/health
   - name: NGR System Status
-    url: https://www.ngr.com.au/myngr-system-status/ 
+    url: https://my.ngr.com.au/api/v2/web_service/service_test
   - name: AgriDigital Short URL Service
     url: agri.digital 
   - name: Cache Service
