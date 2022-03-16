@@ -23,8 +23,6 @@ jobs:
               workflow_id: 'maintenance.yml',
               ref: 'master'
               inputs: {
-                title: ${{ github.event.issues.title || '' }},
-                body: ${{ github.event.issues.body || '' }},
                 eventContext: ${{ toJson(github.event )}}
               }
             })
