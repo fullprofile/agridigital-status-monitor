@@ -1,0 +1,30 @@
+name: AD1 Banner Maintenance
+
+on:
+  issues:
+    types: [opened, closed]
+  workflow_dispatch:
+
+jobs:
+  trigger_agridigital_workflow:
+    name: Send dispatch workflow to agridigital repo
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'fullprofile',
+              repo: 'agridigital',
+              workflow_id: 'maintenance.yml',
+              ref: 'master'
+              inputs: {
+                title: ${{ github.event.issues.title }},
+                body: ${{ github.event.issues.body }},
+                eventContext: ${{ toJson(github.event )}}
+              }
+            })
