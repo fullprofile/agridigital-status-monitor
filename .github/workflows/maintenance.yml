@@ -60,6 +60,6 @@ jobs:
             await github.rest.issues.update({
               owner: 'fullprofile',
               repo: 'agridigital',
-              issue_number: linkedIssue.id,
+              issue_number: linkedIssue.number,
               state: 'closed'
             });
