@@ -53,10 +53,8 @@ jobs:
               state: 'open', // Filter open issues
             });
 
-            console.log(issues);
-
             // Extract the related issue created by issue from agridigital-status-monitor
-            const linkedIssue = issues.find(i => i.title.includes('${{ github.event.issue.id }}'));
+            const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
 
             // Update agridigital issue to close
             await github.rest.issues.update({
