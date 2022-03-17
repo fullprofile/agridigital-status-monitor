@@ -17,14 +17,49 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: actions/github-script@v6
-        if: ${{ github.event.issue.title }}
+        if: ${{ github.event.action == 'opened' }}
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
             await github.rest.issues.create({
               owner: 'fullprofile',
               repo: 'agridigital',
-              title: ${{ github.event.issue.title }},
-              body: ${{ github.event.issue.body }},
-              labels: [],
+              // github.event.issue.id will be used to search when closing the issue
+              title: '${{ github.event.issue.title }} - ${{ github.event.issue.id }} ',
+              body: '${{ github.event.issue.body }}',
+              labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'],
+            });
+
+  close_issue:
+    name: Close issue on agridigital repo
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Dump context
+        uses: crazy-max/ghaction-dump-context@v1
+
+      - uses: actions/checkout@v2
+
+      - uses: actions/github-script@v6
+        if: ${{ github.event.action == 'closed' }}
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            // Fetch all issues on agridigital repo with filter
+            const issues = await github.rest.issues.listForRepo({
+              owner: 'fullprofile',
+              repo: 'agridigital',
+              labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'], // Filter issues with banner label
+              state: 'open', // Filter open issues
+            });
+
+            // Extract the related issue created by issue from agridigital-status-monitor
+            const linkedIssue = issues.find(i => i.title.includes('${{ github.event.issue.id }}'));
+
+            // Update agridigital issue to close
+            await github.rest.issues.update({
+              owner: 'fullprofile',
+              repo: 'agridigital',
+              issue_number: linkedIssue.id,
+              state: 'closed'
             });
