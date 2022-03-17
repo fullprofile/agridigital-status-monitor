@@ -25,8 +25,8 @@ jobs:
               owner: 'fullprofile',
               repo: 'agridigital',
               // github.event.issue.id will be used to search when closing the issue
-              title: '${{ github.event.issue.title }} - ${{ github.event.issue.id }} ',
-              body: '${{ github.event.issue.body }}',
+              title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
+              body: `${{ github.event.issue.body }}`,
               labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'],
             });
 
