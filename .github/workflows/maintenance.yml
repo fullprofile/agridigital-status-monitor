@@ -11,17 +11,20 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
+      - name: Dump context
+        uses: crazy-max/ghaction-dump-context@v1
+
       - uses: actions/checkout@v2
 
       - uses: actions/github-script@v6
-        if: ${{ github.event.issues.title }}
+        if: ${{ github.event.issue.title }}
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
             await github.rest.issues.create({
               owner: 'fullprofile',
               repo: 'agridigital',
-              title: ${{ github.event.issues.title }},
-              body: ${{ github.event.issues.body }},
+              title: ${{ github.event.issue.title }},
+              body: ${{ github.event.issue.body }},
               labels: [],
             });
