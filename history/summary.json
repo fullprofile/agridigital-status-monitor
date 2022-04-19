@@ -44,14 +44,14 @@
     "icon": "https://favicons.githubusercontent.com/api.agridigital.io",
     "slug": "api-service",
     "status": "up",
-    "uptime": "90.39%",
+    "uptime": "90.42%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "24.45%",
-    "uptimeYear": "90.39%",
+    "uptimeMonth": "27.44%",
+    "uptimeYear": "90.42%",
     "time": 849,
     "timeDay": 635,
-    "timeWeek": 745,
+    "timeWeek": 724,
     "timeMonth": 798,
     "timeYear": 849,
     "dailyMinutesDown": {
@@ -110,9 +110,9 @@
     "url": "https://my.ngr.com.au/api/v2/web_service/service_test",
     "icon": "https://favicons.githubusercontent.com/my.ngr.com.au",
     "slug": "ngr-system-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.79%",
@@ -122,6 +122,7 @@
     "timeMonth": 945,
     "timeYear": 1686,
     "dailyMinutesDown": {
+      "2022-04-19": 0,
       "2022-03-04": 141,
       "2022-03-02": 48
     }
