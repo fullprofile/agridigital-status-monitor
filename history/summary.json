@@ -22,9 +22,9 @@
     "url": "https://ous.agridigital.io/api/_organisations/heartbeat",
     "icon": "https://favicons.githubusercontent.com/ous.agridigital.io",
     "slug": "ous-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
@@ -34,6 +34,7 @@
     "timeMonth": 820,
     "timeYear": 851,
     "dailyMinutesDown": {
+      "2022-06-15": 0,
       "2022-03-04": 169,
       "2021-12-08": 15
     }
