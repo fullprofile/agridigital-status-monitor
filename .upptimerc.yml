@@ -32,6 +32,7 @@ status-website:
   cname: status.agridigital.io  # Custom CNAME
   #baseUrl: /agridigital-status-monitor
   logoUrl: https://agridigital-public-media.s3.us-east-2.amazonaws.com/media/AgriDigital_Lockup_Horizontal_Colour.png
+  favicon: https://agridigital-public-media.s3.us-east-2.amazonaws.com/media/AgriDigital_Icon_Colour-1.png
   name: AgriDigital Status Monitor
   introTitle: "AgriDigital Status Monitor provides a quick look at our services and the uptime"
   navbar:
