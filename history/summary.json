@@ -125,18 +125,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/my.ngr.com.au.ico",
     "slug": "ngr-system-status",
     "status": "down",
-    "uptime": "99.68%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.63%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.68%",
+    "uptime": "99.67%",
+    "uptimeDay": "98.16%",
+    "uptimeWeek": "99.37%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.67%",
     "time": 1434,
     "timeDay": 1714,
     "timeWeek": 2451,
     "timeMonth": 1492,
     "timeYear": 1434,
     "dailyMinutesDown": {
-      "2023-01-25": 0,
+      "2023-01-25": 26,
       "2023-01-23": 37,
       "2022-12-13": 30,
       "2022-11-24": 151,
@@ -195,9 +195,9 @@
     "url": "https://api.smsbroadcast.com.au/api-adv.php",
     "icon": "https://icons.duckduckgo.com/ip3/api.smsbroadcast.com.au.ico",
     "slug": "sms-broadcast-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -206,6 +206,8 @@
     "timeWeek": 794,
     "timeMonth": 785,
     "timeYear": 802,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-25": 0
+    }
   }
 ]
