@@ -29,11 +29,11 @@
     "url": "https://ous.agridigital.io/api/_organisations/heartbeat",
     "icon": "https://icons.duckduckgo.com/ip3/ous.agridigital.io.ico",
     "slug": "ous-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.95%",
     "time": 834,
     "timeDay": 760,
@@ -41,6 +41,7 @@
     "timeMonth": 875,
     "timeYear": 824,
     "dailyMinutesDown": {
+      "2023-01-25": 3,
       "2022-06-15": 81,
       "2022-03-04": 169
     }
@@ -50,11 +51,11 @@
     "url": "https://api.agridigital.io/api/v1/values/TestDbQuery",
     "icon": "https://icons.duckduckgo.com/ip3/api.agridigital.io.ico",
     "slug": "api-service",
-    "status": "up",
+    "status": "down",
     "uptime": "95.04%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.86%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.85%",
     "uptimeYear": "92.49%",
     "time": 852,
     "timeDay": 788,
@@ -62,6 +63,7 @@
     "timeMonth": 1107,
     "timeYear": 852,
     "dailyMinutesDown": {
+      "2023-01-25": 2,
       "2023-01-16": 62,
       "2022-09-27": 34,
       "2022-09-08": 76,
@@ -104,10 +106,10 @@
     "url": "https://xero.agridigital.io/health",
     "icon": "https://icons.duckduckgo.com/ip3/xero.agridigital.io.ico",
     "slug": "xero-integration",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 1348,
@@ -116,6 +118,7 @@
     "timeMonth": 1785,
     "timeYear": 1326,
     "dailyMinutesDown": {
+      "2023-01-25": 2,
       "2022-03-04": 169
     }
   },
@@ -126,17 +129,17 @@
     "slug": "ngr-system-status",
     "status": "down",
     "uptime": "99.67%",
-    "uptimeDay": "97.80%",
-    "uptimeWeek": "99.32%",
-    "uptimeMonth": "99.84%",
+    "uptimeDay": "96.49%",
+    "uptimeWeek": "99.13%",
+    "uptimeMonth": "99.80%",
     "uptimeYear": "99.67%",
-    "time": 1433,
-    "timeDay": 1347,
-    "timeWeek": 2328,
-    "timeMonth": 1478,
-    "timeYear": 1433,
+    "time": 1432,
+    "timeDay": 1206,
+    "timeWeek": 2220,
+    "timeMonth": 1463,
+    "timeYear": 1432,
     "dailyMinutesDown": {
-      "2023-01-25": 31,
+      "2023-01-25": 50,
       "2023-01-23": 37,
       "2022-12-13": 30,
       "2022-11-24": 151,
@@ -177,27 +180,29 @@
     "url": "$CACHE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cache-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 756,
+    "time": 757,
     "timeDay": 561,
     "timeWeek": 581,
     "timeMonth": 613,
     "timeYear": 735,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-25": 1
+    }
   },
   {
     "name": "SMS Broadcast Service",
     "url": "https://api.smsbroadcast.com.au/api-adv.php",
     "icon": "https://icons.duckduckgo.com/ip3/api.smsbroadcast.com.au.ico",
     "slug": "sms-broadcast-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -206,6 +211,8 @@
     "timeWeek": 999,
     "timeMonth": 836,
     "timeYear": 806,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-25": 0
+    }
   }
 ]
