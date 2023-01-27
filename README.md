@@ -77,7 +77,7 @@ Requirements for the software and other tools to build, test and push
 #### Add Slack notification
 
 - Create slack channel for tracking status for agridigital status monitor
-- Create slack app and a slack webhook URL. See the article https://slack.com/intl/en-in/help/articles/115005265063-Incoming-webhooks-for-Slack for Slack on the Slack website.
+- Create slack app and a slack webhook URL. See the [article](https://slack.com/intl/en-in/help/articles/115005265063-Incoming-webhooks-for-Slack) for Slack on the Slack website.
 - Create additional environment variables in Repository secrets
   NOTIFICATION_SLACK Set to true
   NOTIFICATION_SLACK_WEBHOOK Set to true
@@ -118,7 +118,7 @@ sites:
   logoUrl: https://example.com/image.jpg
   cname: status.agridigital.io # Custom CNAME
 ```
-- See detailed configuration settings in https://upptime.js.org/docs/configuration
+- See detailed configuration settings in [Configuration](https://upptime.js.org/docs/configuration)
 
 ### How it works
 
@@ -159,7 +159,7 @@ sites:
 - Add Title. (Title is not displayed in the banner section)
 - In comment section, Enter the banner message you want to display in the platform. Add the complete message to be displayed on the banner, including the header
 - Submit new issue
-- This will create issue on [agridigital] (https://github.com/fullprofile/agridigital) repo that triggers the activation of the banner using the message entered on the issue body.
+- This will create issue on [Agridigital Repo](https://github.com/fullprofile/agridigital) that triggers the activation of the banner using the message entered on the issue body.
 
 ### Remove banner on AgriDigital platform
 
