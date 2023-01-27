@@ -1,22 +1,24 @@
-# AgriDigital Status Monitor 
+# AgriDigital Status Monitor
 
 This repository contains the open-source uptime monitor and status page for [AgriDigital](https://app.agridigital.io), powered by [Upptime](https://github.com/upptime/upptime).
 [📈 AgriDigital Status Monitor](https://fullprofile.github.io/agridigital-status-monitor) provides a quick look at our Agridigital services and the uptime of each service. It is a public status monitor website. It shows Agridigital websites' live status, incident history, and response time graphs.
 
-
 ## Getting Started
 
-These instructions will guide you on how to create a status monitor page and running on your local machine for development and testing purposes. 
+These instructions will guide you on how to create a status monitor page and running on your local machine for development and testing purposes.
 **See Issue & Banner for notes on creating notices on status monitor page.**
 
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push
+
 - [Visual Studio Community](https://visualstudio.microsoft.com/downloads/)
 - Slack Channel
 
-### Development 
+### Development
+
 #### Create a repository from the template
+
 - On GitHub, navigate to the main page of the repository - GitHub - upptime/upptime: ⬆️ Free uptime monitor and status page powered by GitHub
 - Above the file list, click Use this template.
 - Use the Owner drop-down menu, and select the account you want to own the repository.
@@ -27,6 +29,7 @@ Requirements for the software and other tools to build, test and push
 - Your status page will be hosted on https://<user>.github.io/<repo> where user is your GitHub username and repo is your repository name.
 
 #### Enable Publishing in Github
+
 - Go to your repository settings page
 - Go to the "Pages" sub-section on the left
 - Under "Source", change "None" to gh-pages
@@ -35,6 +38,7 @@ Requirements for the software and other tools to build, test and push
 - Click on "Save"
 
 #### Add repository secrets
+
 - Click on your profile picture on the top-right corner and select "Settings"
 - In the left sidebar, select "Developer settings"
 - In the left sidebar, click "Personal access tokens"
@@ -51,9 +55,11 @@ Requirements for the software and other tools to build, test and push
 - Save your PAT by selecting "Add secret"
 
 #### Create custom name in Route53 in AWS
+
 - Create a custom name in AWS (Route 53)
 
 #### Update Configuration in repo
+
 - Verify owner (organization or username, where this repository lives) and repo ( name of this repository) in in .upptimerc.yml configuration file.
 - Enter the endpoints you want to monitor in .upptimerc.yml configuration file.
 - You can start by adding your endpoints under sites:
@@ -62,13 +68,15 @@ Requirements for the software and other tools to build, test and push
 - Push your changes to master repository
 
 #### Enable HTTPS in Github Pages
+
 - Go to your repository settings page
 - Go to the "Pages" sub-section on the left
 - Check the box for Enforce HTTPS
 - Click on "Save"
 
 #### Add Slack notification
-- Create slack channel for tracking status for agridigital status monitor 
+
+- Create slack channel for tracking status for agridigital status monitor
 - Create slack app and a slack webhook URL. See the article https://slack.com/intl/en-in/help/articles/115005265063-Incoming-webhooks-for-Slack for Slack on the Slack website.
 - Create additional environment variables in Repository secrets
   NOTIFICATION_SLACK Set to true
@@ -76,7 +84,8 @@ Requirements for the software and other tools to build, test and push
   NOTIFICATION_SLACK_WEBHOOK_URL Slack webhook URL
 
 ### Deployment
-A step by step to track sites/endpoints in status monitor page 
+
+A step by step to track sites/endpoints in status monitor page
 
 Clone Repository
 
@@ -87,7 +96,8 @@ Clone Repository
 - After you've created a new repository using this template, specify the username and repository name in the configuration
 - You can track as many websites as you like. Add the names and URLs of your endpoints in the sites key
 
-    sites:
+  sites:
+
   - name: Google
     url: https://www.google.com
   - name: DuckDuckGo
@@ -96,8 +106,8 @@ Clone Repository
 - Maximum response time - Upptime endpoints can be up, down, or degraded. By default, if an endpoint takes more than 30 seconds to respond, its performance is tracked as "degraded". You can customize the maximum response time. In the below example, this endpoint will be measured as degraded if it takes more than 5 seconds to respond.
 
   - name: Slow endpoint
-  url: https://example.com
-  maxResponseTime: 5000
+    url: https://example.com
+    maxResponseTime: 5000
 
 - Custom domain: To use a custom domain, add the cname key
 
@@ -108,8 +118,8 @@ Clone Repository
 
 - See detailed configuration settings in https://upptime.js.org/docs/configuration
 
-
 ### How it works
+
 - GitHub Actions is used as an uptime monitor
 - Every 5 minutes, a workflow visits your website to make sure it's up
 - Response time is recorded every 6 hours and committed to git
@@ -134,6 +144,7 @@ Clone Repository
 - Incident is created on status monitor page
 
 ### Close Issue on AgriDigital platform
+
 - Navigate to the issue that you want to close Agridigital [Status monitor repo](https://github.com/fullprofile/agridigital-status-monitor/issues)
 - Enter the closing comment and click Close with comment button
 - The public status page gets updated and closed notices are pushed to the bottom.
@@ -154,12 +165,12 @@ Clone Repository
 - Enter the closing comment and click Close with comment button
 - Closing the issue will close the related issue on agridigital repo which will deactivate the banner on AD1
 
-
 ## Authors
 
 - AgriDigital (Full Profile Pty Ltd)
 
 See also the list of contributing team members:
+
 - Upptime Bot
 - Shilpa Gupta
 - Reden
@@ -173,4 +184,4 @@ See also the list of contributing team members:
 
 ## Acknowledgments
 
-  - Powered by Upptime : https://github.com/upptime/upptime
+- Powered by Upptime : https://github.com/upptime/upptime
