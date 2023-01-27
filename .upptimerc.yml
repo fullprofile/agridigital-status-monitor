@@ -23,8 +23,6 @@ sites:
   - name: SMS Broadcast Service
     url: https://api.smsbroadcast.com.au/api-adv.php
 
-assignees:
-  - mccpanelo-ad
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
