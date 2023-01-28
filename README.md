@@ -106,18 +106,22 @@ sites:
 ```
 
 - Maximum response time - Upptime endpoints can be up, down, or degraded. By default, if an endpoint takes more than 30 seconds to respond, its performance is tracked as "degraded". You can customize the maximum response time. In the below example, this endpoint will be measured as degraded if it takes more than 5 seconds to respond.
+
 ```
   - name: Slow endpoint
     url: https://example.com
     maxResponseTime: 5000
 ```
+
 - Custom domain: To use a custom domain, add the cname key
+
 ```
   status-website:
   name: Upptime
   logoUrl: https://example.com/image.jpg
   cname: status.agridigital.io # Custom CNAME
 ```
+
 - See detailed configuration settings in [Configuration](https://upptime.js.org/docs/configuration)
 
 ### How it works
