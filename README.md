@@ -26,14 +26,14 @@ Requirements for the software and other tools to build, test and push
 - Choose a repository visibility as Public
 - Important: Check "Include all branches"
 - Click Create repository from template
-- Your status page will be hosted on https://<user>.github.io/<repo> where ```user``` is your GitHub username and ```repo``` is your repository name.
+- Your status page will be hosted on https://<user>.github.io/<repo> where `user` is your GitHub username and `repo` is your repository name.
 
 #### Enable Publishing in Github
 
 - Go to your repository settings page
 - Go to the "Pages" sub-section on the left
-- Under "Source", change "None" to ```gh-pages```
-- In the folder dropdown, select ```/(root)```
+- Under "Source", change "None" to `gh-pages`
+- In the folder dropdown, select `/(root)`
 - Enter the Custom domain
 - Click on "Save"
 
@@ -49,7 +49,7 @@ Requirements for the software and other tools to build, test and push
 - In your Upptime repository, select "Settings"
 - In the left sidebar, click "Secrets"
 - Press the button "New repository secret"
-- Enter the name of the secret as ```GH_PAT```
+- Enter the name of the secret as `GH_PAT`
 - Paste your personal access token into the Value field
 - Be sure there are no spaces before or after the token and/or linebreaks after your token
 - Save your PAT by selecting "Add secret"
@@ -60,10 +60,10 @@ Requirements for the software and other tools to build, test and push
 
 #### Update Configuration in repo
 
-- Verify owner (organization or username, where this repository lives) and repo ( name of this repository) in in ```.upptimerc.yml``` configuration file.
-- Enter the endpoints you want to monitor in ```.upptimerc.yml``` configuration file.
-- You can start by adding your endpoints under ```sites:```
-- To use a custom domain, remove the line starting with ```baseUrl:``` and instead add your custom domain name in ```cname:```
+- Verify owner (organization or username, where this repository lives) and repo ( name of this repository) in in `.upptimerc.yml` configuration file.
+- Enter the endpoints you want to monitor in `.upptimerc.yml` configuration file.
+- You can start by adding your endpoints under `sites:`
+- To use a custom domain, remove the line starting with `baseUrl:` and instead add your custom domain name in `cname:`
 - To customise the page follow configuration mentioned in [Configuration | Upptime](https://upptime.js.org/docs/configuration)
 - Push your changes to master repository
 
@@ -79,9 +79,9 @@ Requirements for the software and other tools to build, test and push
 - Create slack channel for tracking status for agridigital status monitor
 - Create slack app and a slack webhook URL. See the [Incoming webhooks for Slack](https://slack.com/intl/en-in/help/articles/115005265063-Incoming-webhooks-for-Slack) for Slack on the Slack website.
 - Create additional environment variables in Repository secrets
-  - ```NOTIFICATION_SLACK``` Set to ```true```
-  - ```NOTIFICATION_SLACK_WEBHOOK``` Set to ```true```
-  - ```NOTIFICATION_SLACK_WEBHOOK_URL``` Slack webhook URL
+  - `NOTIFICATION_SLACK` Set to `true`
+  - `NOTIFICATION_SLACK_WEBHOOK` Set to `true`
+  - `NOTIFICATION_SLACK_WEBHOOK_URL` Slack webhook URL
 
 ### Deployment
 
