@@ -1,4 +1,8 @@
-name: AD1 Banner Maintenance
+# This workflow is intended for raising banner that allows users to understand any activity or outages the platform is.
+# This workflow is executed through creating or closing an issue in this repository.
+# This repository is also used to create a status page for the platform, and its also using issue to create notification.
+
+name: AD1 Automated Banner
 
 on:
   issues:
@@ -9,7 +13,7 @@ jobs:
   create_issue:
     name: Create issue on agridigital repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'opened' }}
+    if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
       - name: Dump context
@@ -33,7 +37,7 @@ jobs:
   close_issue:
     name: Close issue on agridigital repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'closed' }}
+    if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
       - name: Dump context
