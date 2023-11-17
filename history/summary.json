@@ -119,18 +119,20 @@
     "url": "agri.digital",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "agri-digital-short-url-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 637,
+    "time": 638,
     "timeDay": 350,
     "timeWeek": 678,
     "timeMonth": 610,
     "timeYear": 645,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-11-17": 0
+    }
   },
   {
     "name": "Cache Service",
