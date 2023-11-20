@@ -40,19 +40,19 @@
     "url": "https://api.agridigital.io/api/v1/values/TestDbQuery",
     "icon": "https://icons.duckduckgo.com/ip3/api.agridigital.io.ico",
     "slug": "api-service",
-    "status": "down",
+    "status": "up",
     "uptime": "96.76%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.25%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.93%",
     "time": 881,
-    "timeDay": 0,
-    "timeWeek": 621,
-    "timeMonth": 703,
-    "timeYear": 898,
+    "timeDay": 462,
+    "timeWeek": 598,
+    "timeMonth": 699,
+    "timeYear": 897,
     "dailyMinutesDown": {
-      "2023-11-20": 0,
+      "2023-11-20": 11,
       "2023-08-30": 302,
       "2023-01-16": 62
     }
@@ -71,7 +71,7 @@
     "time": 1582,
     "timeDay": 772,
     "timeWeek": 836,
-    "timeMonth": 1511,
+    "timeMonth": 1530,
     "timeYear": 1681,
     "dailyMinutesDown": {
       "2023-10-19": 16,
@@ -95,7 +95,7 @@
     "time": 1426,
     "timeDay": 1098,
     "timeWeek": 825,
-    "timeMonth": 849,
+    "timeMonth": 845,
     "timeYear": 1293,
     "dailyMinutesDown": {
       "2023-10-01": 106,
@@ -129,7 +129,7 @@
     "time": 641,
     "timeDay": 650,
     "timeWeek": 775,
-    "timeMonth": 658,
+    "timeMonth": 659,
     "timeYear": 648,
     "dailyMinutesDown": {}
   },
@@ -147,7 +147,7 @@
     "time": 667,
     "timeDay": 673,
     "timeWeek": 583,
-    "timeMonth": 637,
+    "timeMonth": 635,
     "timeYear": 661,
     "dailyMinutesDown": {}
   },
@@ -165,7 +165,7 @@
     "time": 839,
     "timeDay": 958,
     "timeWeek": 897,
-    "timeMonth": 901,
+    "timeMonth": 903,
     "timeYear": 847,
     "dailyMinutesDown": {}
   }
