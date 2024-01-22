@@ -154,17 +154,19 @@
     "url": "https://api.smsbroadcast.com.au/api-adv.php",
     "icon": "https://icons.duckduckgo.com/ip3/api.smsbroadcast.com.au.ico",
     "slug": "sms-broadcast-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 841,
-    "timeDay": 867,
-    "timeWeek": 872,
-    "timeMonth": 840,
+    "timeDay": 772,
+    "timeWeek": 848,
+    "timeMonth": 835,
     "timeYear": 856,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-22": 0
+    }
   }
 ]
