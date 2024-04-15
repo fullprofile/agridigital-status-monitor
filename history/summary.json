@@ -133,19 +133,19 @@
     "url": "$CACHE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cache-service",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.47%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 649,
-    "timeDay": 680,
-    "timeWeek": 711,
-    "timeMonth": 627,
-    "timeYear": 640,
+    "time": 650,
+    "timeDay": 879,
+    "timeWeek": 757,
+    "timeMonth": 641,
+    "timeYear": 641,
     "dailyMinutesDown": {
-      "2024-04-15": 1
+      "2024-04-15": 8
     }
   },
   {
