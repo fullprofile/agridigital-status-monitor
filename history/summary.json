@@ -133,10 +133,10 @@
     "url": "$CACHE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cache-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 649,
@@ -144,7 +144,9 @@
     "timeWeek": 711,
     "timeMonth": 627,
     "timeYear": 640,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-15": 1
+    }
   },
   {
     "name": "SMS Broadcast Service",
