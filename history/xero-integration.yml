@@ -1,7 +1,7 @@
 url: https://xero.agridigital.io/health
-status: down
-code: 504
-responseTime: 20477
-lastUpdated: 2024-08-19T20:15:49.529Z
+status: up
+code: 200
+responseTime: 1002
+lastUpdated: 2024-08-19T20:24:55.565Z
 startTime: 2021-07-21T04:54:29.000Z
 generator: Upptime <https://github.com/upptime/upptime>
