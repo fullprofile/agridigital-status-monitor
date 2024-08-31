@@ -22,19 +22,19 @@
     "url": "https://ous.agridigital.io/api/_organisations/heartbeat",
     "icon": "https://icons.duckduckgo.com/ip3/ous.agridigital.io.ico",
     "slug": "ous-service",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 710,
-    "timeDay": 798,
-    "timeWeek": 724,
-    "timeMonth": 686,
-    "timeYear": 669,
+    "timeDay": 802,
+    "timeWeek": 734,
+    "timeMonth": 690,
+    "timeYear": 670,
     "dailyMinutesDown": {
-      "2024-08-31": 1
+      "2024-08-31": 10
     }
   },
   {
