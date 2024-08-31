@@ -1,7 +1,7 @@
 url: https://ous.agridigital.io/api/_organisations/heartbeat
-status: up
-code: 200
-responseTime: 777
-lastUpdated: 2024-08-30T23:02:06.846Z
+status: down
+code: 503
+responseTime: 819
+lastUpdated: 2024-08-31T13:16:32.001Z
 startTime: 2021-07-21T04:54:26.000Z
 generator: Upptime <https://github.com/upptime/upptime>
