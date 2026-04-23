@@ -13,7 +13,7 @@
     "time": 687,
     "timeDay": 432,
     "timeWeek": 592,
-    "timeMonth": 771,
+    "timeMonth": 776,
     "timeYear": 697,
     "dailyMinutesDown": {}
   },
@@ -31,7 +31,7 @@
     "time": 710,
     "timeDay": 477,
     "timeWeek": 620,
-    "timeMonth": 646,
+    "timeMonth": 648,
     "timeYear": 707,
     "dailyMinutesDown": {}
   },
@@ -49,7 +49,7 @@
     "time": 715,
     "timeDay": 455,
     "timeWeek": 603,
-    "timeMonth": 713,
+    "timeMonth": 716,
     "timeYear": 712,
     "dailyMinutesDown": {}
   },
@@ -67,8 +67,8 @@
     "time": 1526,
     "timeDay": 543,
     "timeWeek": 724,
-    "timeMonth": 1309,
-    "timeYear": 1539,
+    "timeMonth": 1330,
+    "timeYear": 1540,
     "dailyMinutesDown": {
       "2026-03-30": 16,
       "2026-02-28": 18,
@@ -89,17 +89,17 @@
     "url": "https://my.ngr.com.au/api/v2/web_service/service_test",
     "icon": "https://icons.duckduckgo.com/ip3/my.ngr.com.au.ico",
     "slug": "ngr-system-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.78%",
-    "uptimeDay": "97.47%",
+    "uptimeDay": "97.45%",
     "uptimeWeek": "99.64%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.92%",
-    "time": 958,
-    "timeDay": 578,
-    "timeWeek": 825,
-    "timeMonth": 912,
-    "timeYear": 950,
+    "time": 956,
+    "timeDay": 491,
+    "timeWeek": 766,
+    "timeMonth": 889,
+    "timeYear": 947,
     "dailyMinutesDown": {
       "2026-04-23": 36,
       "2026-03-17": 50,
@@ -120,8 +120,8 @@
     "time": 887,
     "timeDay": 550,
     "timeWeek": 901,
-    "timeMonth": 918,
-    "timeYear": 972,
+    "timeMonth": 914,
+    "timeYear": 973,
     "dailyMinutesDown": {}
   },
   {
@@ -138,7 +138,7 @@
     "time": 669,
     "timeDay": 462,
     "timeWeek": 639,
-    "timeMonth": 674,
+    "timeMonth": 675,
     "timeYear": 672,
     "dailyMinutesDown": {}
   },
@@ -156,7 +156,7 @@
     "time": 850,
     "timeDay": 576,
     "timeWeek": 695,
-    "timeMonth": 686,
+    "timeMonth": 683,
     "timeYear": 826,
     "dailyMinutesDown": {}
   }
