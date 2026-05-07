@@ -22,7 +22,7 @@ sites:
       - "Content-Type: application/json"
   - name: SMS Broadcast Service
     url: https://api.smsbroadcast.com.au/api-adv.php
- - name: Metabase Service
+  - name: Metabase Service
     url: https://metabase.agridigital.io/api/health    
 
 
