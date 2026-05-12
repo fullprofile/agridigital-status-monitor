@@ -24,6 +24,8 @@ sites:
     url: https://api.smsbroadcast.com.au/api-adv.php
   - name: Metabase Service
     url: https://metabase.agridigital.io/api/health    
+  - name: Rudderstack Service
+    url: https://rudderstackdataplane.agridigital.io/health  
 
 
 status-website:
