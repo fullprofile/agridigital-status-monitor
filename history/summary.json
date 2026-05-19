@@ -197,18 +197,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/agridigital-data-transfer-prod.eba-m9x2h4vf.us-west-2.elasticbeanstalk.com.ico",
     "slug": "data-transfer-service",
     "status": "down",
-    "uptime": "33.53%",
-    "uptimeDay": "33.53%",
-    "uptimeWeek": "33.53%",
-    "uptimeMonth": "33.53%",
-    "uptimeYear": "33.53%",
+    "uptime": "22.13%",
+    "uptimeDay": "22.13%",
+    "uptimeWeek": "22.13%",
+    "uptimeMonth": "22.13%",
+    "uptimeYear": "22.13%",
     "time": 144,
     "timeDay": 144,
     "timeWeek": 144,
     "timeMonth": 144,
     "timeYear": 144,
     "dailyMinutesDown": {
-      "2026-05-19": 0
+      "2026-05-19": 1
     }
   }
 ]
