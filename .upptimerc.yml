@@ -26,6 +26,9 @@ sites:
     url: https://metabase.agridigital.io/api/health    
   - name: Rudderstack Service
     url: https://rudderstackdataplane.agridigital.io/health  
+  - name: Data Transfer Service
+    url: http://agridigital-data-transfer-prod.eba-m9x2h4vf.us-west-2.elasticbeanstalk.com/api/health
+
 
 
 status-website:
