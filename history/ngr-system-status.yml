@@ -1,7 +1,7 @@
 url: https://my.ngr.com.au/api/v2/web_service/service_test
-status: down
-code: 403
-responseTime: 216
-lastUpdated: 2026-07-12T21:15:54.767Z
+status: up
+code: 200
+responseTime: 639
+lastUpdated: 2026-07-12T21:34:57.777Z
 startTime: 2022-02-17T01:40:18.000Z
 generator: Upptime <https://github.com/upptime/upptime>
