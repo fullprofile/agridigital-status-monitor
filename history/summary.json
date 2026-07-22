@@ -130,19 +130,20 @@
     "url": "$CACHE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cache-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.99%",
+    "uptimeDay": "97.82%",
+    "uptimeWeek": "99.69%",
+    "uptimeMonth": "99.76%",
+    "uptimeYear": "99.98%",
     "time": 667,
     "timeDay": 665,
     "timeWeek": 577,
     "timeMonth": 624,
     "timeYear": 654,
     "dailyMinutesDown": {
-      "2026-06-29": 72
+      "2026-06-29": 72,
+      "2026-07-22": 31
     }
   },
   {
@@ -150,73 +151,80 @@
     "url": "https://api.smsbroadcast.com.au/api-adv.php",
     "icon": "https://icons.duckduckgo.com/ip3/api.smsbroadcast.com.au.ico",
     "slug": "sms-broadcast-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.31%",
+    "uptimeWeek": "99.76%",
+    "uptimeMonth": "99.94%",
     "uptimeYear": "100.00%",
     "time": 811,
     "timeDay": 601,
     "timeWeek": 602,
     "timeMonth": 618,
     "timeYear": 758,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-22": 24
+    }
   },
   {
     "name": "Metabase Service",
     "url": "https://metabase.agridigital.io/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/metabase.agridigital.io.ico",
     "slug": "metabase-service",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.98%",
     "time": 311,
     "timeDay": 319,
     "timeWeek": 263,
     "timeMonth": 290,
     "timeYear": 311,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-22": 17
+    }
   },
   {
     "name": "Rudderstack Service",
     "url": "https://rudderstackdataplane.agridigital.io/health",
     "icon": "https://icons.duckduckgo.com/ip3/rudderstackdataplane.agridigital.io.ico",
     "slug": "rudderstack-service",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 355,
     "timeDay": 355,
     "timeWeek": 300,
     "timeMonth": 333,
     "timeYear": 355,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-22": 10
+    }
   },
   {
     "name": "Data Transfer Service",
     "url": "http://agridigital-data-transfer-prod.eba-m9x2h4vf.us-west-2.elasticbeanstalk.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/agridigital-data-transfer-prod.eba-m9x2h4vf.us-west-2.elasticbeanstalk.com.ico",
     "slug": "data-transfer-service",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 158,
     "timeDay": 160,
     "timeWeek": 138,
     "timeMonth": 143,
     "timeYear": 158,
     "dailyMinutesDown": {
-      "2026-05-19": 3
+      "2026-05-19": 3,
+      "2026-07-22": 3
     }
   }
 ]
