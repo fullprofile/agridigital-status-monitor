@@ -27,7 +27,7 @@ sites:
   - name: Rudderstack Service
     url: https://rudderstackdataplane.agridigital.io/health
   - name: Data Transfer Service
-    url: ad-prod-data-transfer-web-app-etd4hmczbuc0bveh.australiaeast-01.azurewebsites.net/api/health
+    url: https://ad-prod-data-transfer-web-app-etd4hmczbuc0bveh.australiaeast-01.azurewebsites.net/api/health
     headers:
       - "ApiKey: $DATATRANSFERPRODAPIKEY"
       - "accept: */*"  
