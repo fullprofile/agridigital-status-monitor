@@ -1,7 +1,7 @@
-url: ad-prod-data-transfer-web-app-etd4hmczbuc0bveh.australiaeast-01.azurewebsites.net/api/health
+url: https://ad-prod-data-transfer-web-app-etd4hmczbuc0bveh.australiaeast-01.azurewebsites.net/api/health
 status: up
 code: 200
-responseTime: 964
-lastUpdated: 2026-08-12T01:03:53.776Z
+responseTime: 770
+lastUpdated: 2026-08-12T01:10:47.842Z
 startTime: 2026-05-19T06:24:26.017Z
 generator: Upptime <https://github.com/upptime/upptime>
