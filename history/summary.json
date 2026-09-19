@@ -84,16 +84,16 @@
     "url": "https://my.ngr.com.au/api/v2/web_service/service_test",
     "icon": "https://icons.duckduckgo.com/ip3/my.ngr.com.au.ico",
     "slug": "ngr-system-status",
-    "status": "down",
+    "status": "up",
     "uptime": "99.79%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.72%",
-    "uptimeMonth": "99.94%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.65%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.87%",
     "time": 919,
-    "timeDay": 451,
-    "timeWeek": 716,
-    "timeMonth": 782,
+    "timeDay": 669,
+    "timeWeek": 746,
+    "timeMonth": 790,
     "timeYear": 891,
     "dailyMinutesDown": {
       "2025-10-29": 348,
@@ -106,7 +106,7 @@
       "2026-07-12": 19,
       "2026-07-14": 65,
       "2026-09-18": 27,
-      "2026-09-19": 0
+      "2026-09-19": 8
     }
   },
   {
