@@ -12,14 +12,10 @@ on:
 jobs:
   create_issue:
     name: Create issue on agridigital repo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
-      - name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
-
-      - uses: actions/checkout@v2
 
       - uses: actions/github-script@v6
         with:
@@ -36,14 +32,12 @@ jobs:
 
   close_issue:
     name: Close issue on agridigital repo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
       - name: Dump context
         uses: crazy-max/ghaction-dump-context@v1
-
-      - uses: actions/checkout@v2
 
       - uses: actions/github-script@v6
         with:
