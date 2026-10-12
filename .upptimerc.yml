@@ -30,7 +30,9 @@ sites:
     url: https://ad-prod-data-transfer-web-app-etd4hmczbuc0bveh.australiaeast-01.azurewebsites.net/api/health
     headers:
       - "ApiKey: $DATATRANSFERPRODAPIKEY"
-      - "accept: */*"  
+      - "accept: */*"
+  - name: Public Gateway Service
+    url: https://public-gateway-api.agridigital.io/health/live    
 
 
 status-website:
