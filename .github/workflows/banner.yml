@@ -12,58 +12,55 @@ on:
 jobs:
   create_issue:
     name: Create issue on agridigital repo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
-      - name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
 
-      - uses: actions/checkout@v2
-
-      - uses: actions/github-script@v6
+      - uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
+            const issue = context.payload.issue;
+            // issue.id is used to find the linked issue when closing
             await github.rest.issues.create({
               owner: 'fullprofile',
               repo: 'agridigital',
-              // github.event.issue.id will be used to search when closing the issue
-              title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
-              body: `${{ github.event.issue.body }}`,
+              title: `${issue.title} - ${issue.id}`,
+              body: issue.body || '',
               labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'],
             });
 
   close_issue:
     name: Close issue on agridigital repo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
-      - name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
-
-      - uses: actions/checkout@v2
-
-      - uses: actions/github-script@v6
+      - uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            // Fetch all issues on agridigital repo with filter
+            const sourceId = String(context.payload.issue.id);
+
+            // Fetch open banner issues on agridigital repo
             const issues = await github.rest.issues.listForRepo({
               owner: 'fullprofile',
               repo: 'agridigital',
-              labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'], // Filter issues with banner label
-              state: 'open', // Filter open issues
+              labels: 'BANNER,CUSTOM OUTAGE MESSAGE',
+              state: 'open',
             });
 
-            // Extract the related issue created by issue from agridigital-status-monitor
-            const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
+            // Find the issue created from this status-monitor issue
+            const linkedIssue = issues.data.find(i => i.title.includes(sourceId));
+            if (!linkedIssue) {
+              core.notice(`No open banner issue found for ${sourceId}`);
+              return;
+            }
 
-            // Update agridigital issue to close
             await github.rest.issues.update({
               owner: 'fullprofile',
               repo: 'agridigital',
               issue_number: linkedIssue.number,
-              state: 'closed'
+              state: 'closed',
             });

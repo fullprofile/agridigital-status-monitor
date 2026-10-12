@@ -23,7 +23,7 @@ sites:
   - name: SMS Broadcast Service
     url: https://api.smsbroadcast.com.au/api-adv.php
   - name: Metabase Service
-    url: https://metabase.agridigital.io/api/health    
+    url: https://metabase.agridigital.io/api/health  
   - name: Rudderstack Service
     url: https://rudderstackdataplane.agridigital.io/health
   - name: Data Transfer Service
@@ -32,7 +32,7 @@ sites:
       - "ApiKey: $DATATRANSFERPRODAPIKEY"
       - "accept: */*"
   - name: Public Gateway Service
-    url: https://public-gateway-api.agridigital.io/health/live    
+    url: https://public-gateway-api.agridigital.io/health/live   
 
 
 status-website:
