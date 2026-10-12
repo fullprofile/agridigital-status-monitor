@@ -14,7 +14,7 @@ sites:
   - name: NGR System Status
     url: https://my.ngr.com.au/api/v2/web_service/service_test
   - name: AgriDigital Short URL Service
-    url: agri.digital 
+    url: https://agri.digital
   - name: Cache Service
     url: $CACHE_URL
     headers:
