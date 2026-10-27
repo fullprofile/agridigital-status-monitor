@@ -1,23 +1,29 @@
 # This workflow is intended for raising banner that allows users to understand any activity or outages the platform is.
 # This workflow is executed through creating or closing an issue in this repository.
 # This repository is also used to create a status page for the platform, and its also using issue to create notification.
-
+ 
 name: AD1 Automated Banner
-
+ 
 on:
   issues:
     types: [opened, closed]
-  workflow_dispatch:
-
+ 
+# The built-in token is not used (the PAT below talks to the agridigital repo)
+permissions: {}
+ 
+concurrency:
+  group: banner-${{ github.event.issue.number }}
+  cancel-in-progress: false
+ 
 jobs:
   create_issue:
     name: Create issue on agridigital repo
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'BANNER') }}
-
+ 
     steps:
-
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
@@ -30,34 +36,36 @@ jobs:
               body: issue.body || '',
               labels: ['BANNER', 'CUSTOM OUTAGE MESSAGE'],
             });
-
+ 
   close_issue:
     name: Close issue on agridigital repo
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'BANNER') }}
-
+ 
     steps:
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
             const sourceId = String(context.payload.issue.id);
-
-            // Fetch open banner issues on agridigital repo
-            const issues = await github.rest.issues.listForRepo({
+ 
+            // Fetch open banner issues on agridigital repo (all pages)
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner: 'fullprofile',
               repo: 'agridigital',
               labels: 'BANNER,CUSTOM OUTAGE MESSAGE',
               state: 'open',
+              per_page: 100,
             });
-
+ 
             // Find the issue created from this status-monitor issue
-            const linkedIssue = issues.data.find(i => i.title.includes(sourceId));
+            const linkedIssue = issues.find(i => i.title.endsWith(` - ${sourceId}`));
             if (!linkedIssue) {
               core.notice(`No open banner issue found for ${sourceId}`);
               return;
             }
-
+ 
             await github.rest.issues.update({
               owner: 'fullprofile',
               repo: 'agridigital',
