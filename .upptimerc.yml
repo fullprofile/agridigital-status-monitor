@@ -28,9 +28,6 @@ sites:
     url: https://rudderstackdataplane.agridigital.io/health
   - name: Data Transfer Service
     url: https://data-transfer-api.agridigital.io/api/health
-    headers:
-      - "ApiKey: $DATATRANSFERPRODAPIKEY"
-      - "accept: */*"
   - name: Public Gateway Service
     url: https://public-gateway-api.agridigital.io/health/live   
 
